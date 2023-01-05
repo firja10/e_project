@@ -31,18 +31,19 @@
                     <thead>
                     <tr>
                       <th>No. </th>
-                      <th>Project</th>
-                      <th>Nama Klien</th>
-                      <th>Jenis Project</th>
-                      <th>Sumber Project</th>
-                      <th>Status Project</th>
-                      <th>Biaya</th>
+                      <th>Nama</th>
+                      <th>No HP</th>
+                      <th>Email</th>
+                      <th>Alamat</th>
+                      <th>Keterangan</th>
+                      <th>MoU</th>
                     </tr>
                     </thead>
                     <tbody>                  
                     <tr>
                 
                         <td></td>
+                      <td></td>
                       <td></td>
                       <td></td>
                       <td></td>
@@ -55,12 +56,12 @@
                     <tfoot>
                     <tr>
                         <th>No. </th>
-                        <th>Project</th>
-                        <th>Nama Klien</th>
-                        <th>Jenis Project</th>
-                        <th>Sumber Project</th>
-                        <th>Status Project</th>
-                        <th>Biaya</th>
+                        <th>Nama</th>
+                        <th>No HP</th>
+                        <th>Email</th>
+                        <th>Alamat</th>
+                        <th>Keterangan</th>
+                        <th>MoU</th>
                     </tr>
                     </tfoot>
                   </table>

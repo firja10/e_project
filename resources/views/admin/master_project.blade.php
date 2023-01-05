@@ -1,7 +1,7 @@
 @extends('layouts.admin_template')
 
 @section('title')
-    Master Pricelist
+    Master Project
 @endsection
 
 
@@ -30,24 +30,71 @@
                   <table id="example2" class="table table-bordered table-hover">
                     <thead>
                     <tr>
-                      <th>No. </th>
-                      <th>Project</th>
-                      <th>Nama Klien</th>
-                      <th>Jenis Project</th>
-                      <th>Sumber Project</th>
-                      <th>Status Project</th>
-                      <th>Biaya</th>
+                        <th>No. </th>
+                        <th>Project</th>
+                        <th>Nama Klien</th>
+                        <th>Jenis Project</th>
+                        <th>Sumber Project</th>
+                        <th>Status Project</th>
+
+                        <th>Dari Rekanan</th>
+                        <th>Upload Penawaran</th>
+                        <th>Upload SPK</th>
+
+                        <th>Upload Tanda Terima Bekas</th>
+                        <th>No. HP Klien</th>
+                        <th>Email Klien</th>
+                        <th>Alamat Klien</th>
+
+                        <th>Tanggal Project Masuk</th>
+                        <th>Alamat Persil </th>
+
+                        <th>Koordinat Lokasi</th>
+                        <th>Foto Lokasi</th>
+
+                        <th>Rincian Layanan</th>
+                        <th>Rincian Biaya</th>
+                        <th>Rincian Berkas Diterima</th>
+
+                        <th>Link GDrive Bebas</th>
+                        <th>Total Biaya (Bruto)</th>
+                        <th>Total Biaya (Netto)</th>
+
+                        <th>Rincian Termin (Brutto)</th>
+                        <th>Rincian Termin (Netto)</th>
+
+                        <th>Biaya</th>
                     </tr>
                     </thead>
                     <tbody>                  
                     <tr>
                 
-                        <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
              
                     </tr>
                 

@@ -15,9 +15,12 @@ use App\Http\Controllers\AdminLandingController;
 |
 */
 
+// Untuk admin sementara
 Route::get('/', function () {
-    return view('welcome');
+    return view('admin.home');
 });
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
