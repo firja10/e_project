@@ -31,14 +31,20 @@
                     <thead>
                         <tr>
                             <th>No. </th>
-                            <th>Jumlah Biaya </th>
-                            <th>Jobdesk</th>
-                            <th>Keterangan</th>
+                            <th>ID Gaji </th>
+                            <th>ID Tim Teknis</th>
+                            <th>ID Projek</th>
+                            <th>Jumlah Hutang</th>
+                            <th>Terbayar</th>
+                            <th>Sisa</th>
                           </tr>
                           </thead>
                           <tbody>                  
                           <tr>
                       
+                            <td></td>
+                            <td></td>
+                            <td></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -49,10 +55,13 @@
                       </tbody>
                           <tfoot>
                           <tr>
-                              <th>No. </th>
-                              <th>Jumlah Biaya </th>
-                              <th>Jobdesk</th>
-                              <th>Keterangan</th>
+                            <th>No. </th>
+                            <th>ID Gaji </th>
+                            <th>ID Tim Teknis</th>
+                            <th>ID Projek</th>
+                            <th>Jumlah Hutang</th>
+                            <th>Terbayar</th>
+                            <th>Sisa</th>
                           </tr>
                     </tfoot>
                   </table>
@@ -67,7 +76,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Input Master PriceList</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Input Tabel Hutang Gaji Tim Teknis</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -75,15 +84,53 @@
         <div class="modal-body">
           
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Nama Project</label>
-                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <label for="idGaji">ID Gaji</label>
+
+                  <select name="" id="idGaji" class="form-control">
+                           
+                    <option value="1">1</option>
+                    <option value="2">2</option>                        
+
+                  </select>
+
                   {{-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> --}}
                 </div>
 
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Nama Klien</label>
-                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  <label for="idTim_Teknis">ID Tim Teknis</label>
+
+                  <select name="" id="idTim_Teknis" class="form-control">
+                           
+                    <option value="1">1</option>
+                    <option value="2">2</option>                        
+
+              </select>
                 </div>
+
+
+
+                <div class="form-group">
+                  <label for="jumlah_hutang">Jumlah Hutang</label>
+                  <input type="number" class="form-control" name="jumlah_hutang" id="jumlah_hutang">
+                </div>
+                
+
+
+                <div class="form-group">
+                  <label for="terbayar">Terbayar</label>
+                  <input type="number" class="form-control" name="terbayar" id="terbayar">
+                </div>
+
+
+               <div class="form-group">
+                  <label for="sisa">Sisa</label>
+                  <input type="number" class="form-control" name="sisa" id="sisa">
+                </div>
+
+
+
+
+
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

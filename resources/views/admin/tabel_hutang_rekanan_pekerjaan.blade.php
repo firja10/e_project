@@ -32,7 +32,7 @@
                     <tr>
                       <th>No. </th>
                       <th>Nama Rekanan </th>
-                      <th>Jenis Projek</th>
+                      <th>Nama Projek</th>
                       <th>Rincian Biaya</th>
                       <th>Jumlah Biaya</th>
                     </tr>
@@ -50,8 +50,8 @@
                 </tbody>
                     <tfoot>
                     <tr>
-                        <th>Nama Project </th>
-                        <th>Jenis Projek</th>
+                        <th>Nama Rekanan </th>
+                        <th>Nama Projek</th>
                         <th>Rincian Biaya</th>
                         <th>Jumlah Biaya</th>
                     </tr>
@@ -68,7 +68,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Input Master PriceList</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Input Hutang Rekanan</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -76,15 +76,35 @@
         <div class="modal-body">
           
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Nama Project</label>
-                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <label for="nama_rekanan">Nama Rekanan</label>
+                  <input type="text" class="form-control" id="nama_rekanan" placeholder="Nama Rekanan">
                   {{-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> --}}
                 </div>
 
+
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Nama Klien</label>
-                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  <label for="nama_projek">Nama Projek</label>
+                  <input type="text" class="form-control" id="nama_projek" name="nama_projek" placeholder="Nama Projek">
                 </div>
+
+
+                <div class="form-group">
+                  <label for="rincian_biaya">Rincian Biaya</label>
+                  <input type="text" class="form-control" id="rincian_biaya" name="rincian_biaya" placeholder="Rincian Biaya">
+                </div>
+
+                
+                <div class="form-group">
+                  <label for="jumlah_biaya">Jumlah Biaya</label>
+                  <input type="number" class="form-control" id="jumlah_biaya" name="jumlah_biaya" placeholder="Jumlah Biaya">
+                </div>
+
+
+
+
+
+
+
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

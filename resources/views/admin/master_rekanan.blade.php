@@ -76,23 +76,61 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Input Master PriceList</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Input Master Rekanan</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
           
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Nama Project</label>
-                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                  {{-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> --}}
-                </div>
+          <div class="form-group">
+            <label for="nama">Nama</label>
+            <input type="text" class="form-control" id="nama" placeholder="Nama">
+            {{-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> --}}
+          </div>
 
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Nama Klien</label>
-                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
+          <div class="form-group">
+            <label for="nomor_hp">Nomor HP</label>
+            <input type="text" class="form-control" id="nomor_hp" placeholder="Nomor HP">
+          </div>
+
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" id="email" placeholder="Email">
+          </div>
+
+
+          <div class="form-group">
+            <label for="no_rek">Nomor Rekening</label>
+            <input type="text" class="form-control" id="no_rek" placeholder="Nomor Rekening">
+          </div>
+
+
+          <div class="form-group">
+            <label for="jobdesc">Jobdesc</label>
+            <input type="text" class="form-control" id="jobdesc" placeholder="Jobdesc">
+          </div>
+
+
+          <div class="form-group">
+            <label for="alamat">Alamat</label>
+            <input type="text" class="form-control" id="alamat" placeholder="Alamat">
+          </div>
+
+
+          <div class="form-group">
+            <label for="keterangan">Keterangan</label>
+            <input type="text" class="form-control" id="keterangan" placeholder="Keterangan">
+          </div>
+
+
+          <div class="form-group">
+            <label for="mou">MOU</label>
+            <input type="text" class="form-control" id="mou" placeholder="MOU">
+          </div>
+
+
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

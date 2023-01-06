@@ -76,7 +76,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Input Master PriceList</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Input Master User</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -84,15 +84,33 @@
         <div class="modal-body">
           
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Nama Project</label>
-                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <label for="nama">Nama </label>
+                  <input type="text" class="form-control" id="nama"  placeholder="Nama">
                   {{-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> --}}
                 </div>
 
+
+
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Nama Klien</label>
-                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  <label for="no_hp">Nomor HP</label>
+                  <input type="number" class="form-control" id="no_hp" placeholder="No HP">
                 </div>
+
+
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+
+
+                <div class="form-group">
+                  <label for="alamat">Alamat</label>
+                  <input type="text" class="form-control" id="alamat" placeholder="Alamat">
+                </div>
+
+
+
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

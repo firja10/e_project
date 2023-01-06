@@ -83,16 +83,37 @@
         </div>
         <div class="modal-body">
           
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Nama Project</label>
-                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                  {{-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> --}}
-                </div>
+          <div class="form-group">
+            <label for="nama_project">Nama Project</label>
+            <input type="text" class="form-control" id="nama_project" placeholder="Nama Project">
+            {{-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> --}}
+          </div>
 
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Nama Klien</label>
-                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
+          <div class="form-group">
+            <label for="nama_klien">Nama Klien</label>
+            <input type="text" class="form-control" id="nama_klien" placeholder="Nama Klien">
+          </div>
+
+          <div class="form-group">
+            <label for="jenis_project">Jenis Project</label>
+            <input type="text" class="form-control" id="jenis_project" placeholder="Jenis Project">
+          </div>
+
+
+          <div class="form-group">
+            <label for="sumber_project">Sumber Project</label>
+            <input type="text" class="form-control" id="sumber_project" placeholder="Sumber Project">
+          </div>
+
+          
+          <div class="form-group">
+            <label for="status_project">Status Project</label>
+            <input type="text" class="form-control" id="status_project" placeholder="Status Project">
+          </div>
+
+
+
+
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

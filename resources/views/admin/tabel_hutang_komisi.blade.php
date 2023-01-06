@@ -31,10 +31,10 @@
                     <thead>
                     <tr>
                       <th>No. </th>
-                      <th>Nama Project </th>
-                      <th>Jenis Projek</th>
-                      <th>Rincian Biaya</th>
-                      <th>Jumlah Biaya</th>
+                      <th>Id Hutang</th>
+                      <th>Id Projek Jenis</th>
+                      <th>Jenis Komisi </th>
+                      <th>Penerima Komisi</th>
                     </tr>
                     </thead>
                     <tbody>                  
@@ -51,11 +51,11 @@
                 </tbody>
                     <tfoot>
                     <tr>
-                        <th>No. </th>
-                        <th>Nama Project </th>
-                        <th>Jenis Projek</th>
-                        <th>Rincian Biaya</th>
-                        <th>Jumlah Biaya</th>
+                      <th>No. </th>
+                      <th>Id Hutang</th>
+                      <th>Id Projek Jenis</th>
+                      <th>Jenis Komisi </th>
+                      <th>Penerima Komisi</th>
                     </tr>
                     </tfoot>
                   </table>
@@ -70,23 +70,76 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Input Master PriceList</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Input Hutang Komisi</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
+
+
+
+
+                <div class="form-group">
+                  <label for="idHutang">ID Hutang</label>
+                                
+                  <select name="" id="idHutang" class="form-control">
+                           
+                        <option value="1">1</option>
+                        <option value="2">2</option>                        
+
+                  </select>
+
+                  
+                  {{-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> --}}
+                </div>
+
+
+                <div class="form-group">
+                  <label for="idProjek">ID Projek</label>
+
+                  <select name="" id="idProjek" class="form-control">
+                           
+                    <option value="1">1</option>
+                    <option value="2">2</option>                        
+
+              </select>
+                  {{-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> --}}
+                </div>
+
+
           
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Nama Project</label>
-                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <label for="jenisKomisi">Jenis Komisi</label>
+                  <input type="text" class="form-control" id="jenisKomisi" placeholder="Jenis Komisi">
                   {{-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> --}}
                 </div>
 
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Nama Klien</label>
-                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  <label for="penerimaKomisi">Penerima Komisi</label>
+                  <input type="text" class="form-control" id="penerimaKomisi" placeholder="Penerima Komisi">
                 </div>
+
+
+                <div class="form-group">
+                  <label for="jumlah_hutang">Jumlah Hutang</label>
+                  <input type="number" class="form-control" name="jumlah_hutang" id="jumlah_hutang">
+                </div>
+                
+
+
+                <div class="form-group">
+                  <label for="terbayar">Terbayar</label>
+                  <input type="number" class="form-control" name="terbayar" id="terbayar">
+                </div>
+
+
+               <div class="form-group">
+                  <label for="sisa">Sisa</label>
+                  <input type="number" class="form-control" name="sisa" id="sisa">
+                </div>
+
+
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
