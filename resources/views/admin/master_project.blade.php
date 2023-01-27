@@ -27,7 +27,7 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
-                  <table id="example2" class="table table-bordered table-hover">
+                  <table id="example1" class="table table-bordered table-hover">
                     <thead>
                     <tr>
                         <th>No. </th>
@@ -36,105 +36,136 @@
                         <th>Jenis Project</th>
                         <th>Sumber Project</th>
                         <th>Status Project</th>
-
-                        <th>Dari Rekanan</th>
-                        <th>Upload Penawaran</th>
-                        <th>Upload SPK</th>
-
-                        <th>Upload Tanda Terima Bekas</th>
-                        <th>No. HP Klien</th>
-                        <th>Email Klien</th>
-                        <th>Alamat Klien</th>
-
-                        <th>Tanggal Project Masuk</th>
-                        <th>Alamat Persil </th>
-
-                        <th>Koordinat Lokasi</th>
-                        <th>Foto Lokasi</th>
-
+                        <th>Kewenangan</th>
                         <th>Rincian Layanan</th>
-                        <th>Rincian Biaya</th>
-                        <th>Rincian Berkas Diterima</th>
-
-                        <th>Link GDrive Bebas</th>
-                        <th>Total Biaya (Bruto)</th>
-                        <th>Total Biaya (Netto)</th>
-
-                        <th>Rincian Termin (Brutto)</th>
-                        <th>Rincian Termin (Netto)</th>
-
-                        <th>Biaya</th>
+                        <th>PIC Setiap Layanan</th>
+                        <th>Alamat Project</th>
+                        <th>Atas Nama Permohonan</th>
+                        <th>Luas Tanah</th>
+                        <th>Bangunan</th>
+                        <th>Jumlah Lantai</th>
+                        <th>Penggunaan</th>
+                        <th>PJ Klien</th>
+                        <th>Contact Person</th>
+                        <th>Tanggal Mulai</th>
+                        <th>Tanggal Selesai</th>
+                        <th>Proses Klien</th>
+                        <th>Proses Konsultan</th>
+                        <th>Proses Dinas</th>
+                        <th>General Process</th>
+                        <th>Kendala</th>
+                        <th>Solusi</th>
+                        <th>Termin Selesai Pekerjaan</th>
+                        <th>Checklist Termin</th>
+                        <th>Terbayar</th>
+                        <th>Catatan Keterangan</th>
+                        {{-- <th>Biaya</th> --}}
                     </tr>
                     </thead>
                     <tbody>                  
                     <tr>
                 
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+
+                      <td>1.</td>
+                      <td>Master Project</td>
+                      <td>Firja</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+
+
+
+
+
+                      {{-- <td>1.</td>
+                      <td>Master Project</td>
+                      <td>Firja</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td> --}}
+
              
                     </tr>
                 
                 </tbody>
                     <tfoot>
                     <tr>
-                        <th>No. </th>
-                        <th>Project</th>
-                        <th>Nama Klien</th>
-                        <th>Jenis Project</th>
-                        <th>Sumber Project</th>
-                        <th>Status Project</th>
-
-                        <th>Dari Rekanan</th>
-                        <th>Upload Penawaran</th>
-                        <th>Upload SPK</th>
-
-                        <th>Upload Tanda Terima Bekas</th>
-                        <th>No. HP Klien</th>
-                        <th>Email Klien</th>
-                        <th>Alamat Klien</th>
-
-                        <th>Tanggal Project Masuk</th>
-                        <th>Alamat Persil </th>
-
-                        <th>Koordinat Lokasi</th>
-                        <th>Foto Lokasi</th>
-
-                        <th>Rincian Layanan</th>
-                        <th>Rincian Biaya</th>
-                        <th>Rincian Berkas Diterima</th>
-
-                        <th>Link GDrive Bebas</th>
-                        <th>Total Biaya (Bruto)</th>
-                        <th>Total Biaya (Netto)</th>
-
-                        <th>Rincian Termin (Brutto)</th>
-                        <th>Rincian Termin (Netto)</th>
-
-                        <th>Biaya</th>
+                      <th>No. </th>
+                      <th>Project</th>
+                      <th>Nama Klien</th>
+                      <th>Jenis Project</th>
+                      <th>Sumber Project</th>
+                      <th>Status Project</th>
+                      <th>Kewenangan</th>
+                      <th>Rincian Layanan</th>
+                      <th>PIC Setiap Layanan</th>
+                      <th>Alamat Project</th>
+                      <th>Atas Nama Permohonan</th>
+                      <th>Luas Tanah</th>
+                      <th>Bangunan</th>
+                      <th>Jumlah Lantai</th>
+                      <th>Penggunaan</th>
+                      <th>PJ Klien</th>
+                      <th>Contact Person</th>
+                      <th>Tanggal Mulai</th>
+                      <th>Tanggal Selesai</th>
+                      <th>Proses Klien</th>
+                      <th>Proses Konsultan</th>
+                      <th>Proses Dinas</th>
+                      <th>General Process</th>
+                      <th>Kendala</th>
+                      <th>Solusi</th>
+                      <th>Termin Selesai Pekerjaan</th>
+                      <th>Checklist Termin</th>
+                      <th>Terbayar</th>
+                      <th>Catatan Keterangan</th>
+                      {{-- <th>Biaya</th> --}}
                     </tr>
                     </tfoot>
                   </table>

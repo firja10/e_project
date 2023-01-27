@@ -23,121 +23,346 @@
 
       <!-- =========================================================== -->
       {{-- <h5 class="mt-4 mb-2">Info Box With <code>bg-*</code></h5> --}}
-      <div class="row">
-        <div class="col-md-3 col-sm-6 col-12">
-          <div class="info-box bg-info">
-            <span class="info-box-icon"><i class="fas fa-cogs"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">Rekap Project <br/>Dalam Sebulan</span>
-              <span class="info-box-number">Total: </span>
-
-              {{-- <div class="progress">
-                <div class="progress-bar" style="width: 70%"></div>
-              </div> --}}
-              <span class="progress-description">
-                135
-              </span>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-3 col-sm-6 col-12">
-          <div class="info-box bg-success">
-            <span class="info-box-icon"><i class="fas fa-list-alt"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">Rekap Project <br/> Per Status</span>
-              <span class="info-box-number">Total :</span>
-
-              {{-- <div class="progress">
-                <div class="progress-bar" style="width: 70%"></div>
-              </div> --}}
-
-              <span class="progress-description">
-                500
-              </span>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-3 col-sm-6 col-12">
-          <div class="info-box bg-warning">
-            <span class="info-box-icon"><i class="fas fa-credit-card"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">Total Piutang <br/> Project</span>
-              <span class="info-box-number">Total :</span>
-
-              {{-- <div class="progress">
-                <div class="progress-bar" style="width: 70%"></div>
-              </div> --}}
-
-              <span class="progress-description">
-                IDR. 32000
-              </span>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-3 col-sm-6 col-12">
-          <div class="info-box bg-danger">
-            <span class="info-box-icon"><i class="fas fa-credit-card"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">Total Hutang <br/> Komisi</span>
-              <span class="info-box-number">Total</span>
-
-              {{-- <div class="progress">
-                <div class="progress-bar" style="width: 70%"></div>
-              </div> --}}
-
-              <span class="progress-description">
-                IDR. 40
-              </span>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
-        </div>
-        <!-- /.col -->
-      </div>
-      <!-- /.row -->
 
 
 
-      
+
+      <center>
 
       <div class="row">
-        <div class="co-md-6 col-12">
-            <div class="info-box bg-primary">
-                <span class="info-box-icon"><i class="fas fa-credit-card"></i></span>
-    
-                <div class="info-box-content">
-                  <span class="info-box-text">Total Hutang Gaji Tim Teknis</span>
-                  <strong><span class="info-box-number"> Total </span> </strong>       <span class="progress-description">
-                    IDR. 40
-                  </span>
-    
-                  {{-- <div class="progress">
-                    <div class="progress-bar" style="width: 70%"></div>
-                  </div> --}}
-    
-            
+        <div class="col-12">
+        
+          <div id="accordion">
+            <div class="card bg-info">
+
+              <center>
+                <button class="btn btn-info" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                  
+                        <span class="info-box-icon"><i class="fas fa-cogs"></i></span>
+                        <div class="info-box-content">
+                          <span class="info-box-text">Rekap Project <br/>Dalam Sebulan</span>
+                          <span class="info-box-number">Total: </span>
+                          <span class="progress-description">
+                            135
+                          </span>
+                        </div>
+
+                  </h5>
                 </div>
-                <!-- /.info-box-content -->
+              </button>
+              </center>
+
+          
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                 
+
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">No</th>
+                        <th scope="col">Projek Penting Saat Ini</th>
+                        <th scope="col">PJ</th>
+                        <th scope="col">PIC</th>
+                        <th scope="col">Deadline Projek</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>27 Januari 2023</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                
+
+
+
+
+                </div>
               </div>
-              <!-- /.info-box -->
+            </div>
+
+
+
         </div>
      <!-- /.col -->
       </div>
      <!-- /.row -->
+        
+    </center>
+
+
+
+
+      <center>
+
+
+     <div class="row">
+      <div class="col-12">
+        <div id="accordion">
+          <div class="card bg-success">
+
+            <center>
+              <button class="btn btn-success" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                
+                  <span class="info-box-icon"><i class="fas fa-list-alt"></i></span>
+                      <div class="info-box-content">
+                        <span class="info-box-text">Rekap Project <br/> Per Status</span>
+                        <span class="info-box-number">Total: </span>
+                        <span class="progress-description">
+                          500
+                        </span>
+                      </div>
+
+                </h5>
+              </div>
+            </button>
+            </center>
+
+        
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+               
+
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">No</th>
+                      <th scope="col">Projek Penting Saat Ini</th>
+                      <th scope="col">PJ</th>
+                      <th scope="col">PIC</th>
+                      <th scope="col">Deadline Projek</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                      <td>27 Januari 2023</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+          </div>
+
+      </div>
+   <!-- /.col -->
+    </div>
+   <!-- /.row -->
+  </center>
+
+
+
+
+  <center>
+
+   <div class="row">
+    <div class="col-12">
+      <div id="accordion">
+        <div class="card bg-warning">
+
+          <center>
+            <button class="btn btn-warning" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+              
+                <span class="info-box-icon"><i class="fas fa-credit-card"></i></span>
+                    <div class="info-box-content">
+                      <span class="info-box-text">Total Piutang <br/>Project</span>
+                      <span class="info-box-number">Total: </span>
+                      <span class="progress-description">
+                        500
+                      </span>
+                    </div>
+
+              </h5>
+            </div>
+          </button>
+          </center>
+
+      
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+             
+
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Projek Penting Saat Ini</th>
+                    <th scope="col">PJ</th>
+                    <th scope="col">PIC</th>
+                    <th scope="col">Deadline Projek</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>27 Januari 2023</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+        </div>
+
+    </div>
+ <!-- /.col -->
+  </div>
+ <!-- /.row -->
+    
+</center>
+
+
+
+
+
+
+ <center>
+
+
+ <div class="row">
+  <div class="col-12">
+    <div id="accordion">
+      <div class="card bg-danger">
+
+        <center>
+          <button class="btn btn-danger" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+            
+              <span class="info-box-icon"><i class="fas fa-credit-card"></i></span>
+                  <div class="info-box-content">
+                    <span class="info-box-text">Total Hutang <br/> Komisi</span>
+                    <span class="info-box-number">Total: </span>
+                    <span class="progress-description">
+                      500
+                    </span>
+                  </div>
+
+            </h5>
+          </div>
+        </button>
+        </center>
+
+    
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+           
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">No</th>
+                  <th scope="col">Projek Penting Saat Ini</th>
+                  <th scope="col">PJ</th>
+                  <th scope="col">PIC</th>
+                  <th scope="col">Deadline Projek</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                  <td>27 Januari 2023</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+      </div>
+
+  </div>
+<!-- /.col -->
+</div>
+<!-- /.row -->
+</center>
+
+
+
+
+
+<center>
+
+
+<div class="row">
+  <div class="col-12">
+    <div id="accordion">
+      <div class="card bg-primary">
+
+        <center>
+          <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+            
+              <span class="info-box-icon"><i class="fas fa-credit-card"></i></span>
+                  <div class="info-box-content">
+                    <span class="info-box-text">Total Hutang Gaji Tim Teknis</span>
+                    <span class="info-box-number">Total: </span>
+                    <span class="progress-description">
+                      500
+                    </span>
+                  </div>
+
+            </h5>
+          </div>
+        </button>
+        </center>
+
+    
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+           
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">No</th>
+                  <th scope="col">Projek Penting Saat Ini</th>
+                  <th scope="col">PJ</th>
+                  <th scope="col">PIC</th>
+                  <th scope="col">Deadline Projek</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                  <td>27 Januari 2023</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+      </div>
+
+  </div>
+<!-- /.col -->
+</div>
+<!-- /.row -->
+</center>
 
 
 

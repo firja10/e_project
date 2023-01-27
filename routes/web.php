@@ -60,26 +60,22 @@ Route::get('/admin/master_pricelist', [AdminLandingController::class, 'master_pr
 Route::get('/admin/master_user', [AdminLandingController::class, 'master_user'])->name('admin.master_user');
 Route::get('/admin/master_rekanan', [AdminLandingController::class, 'master_rekanan'])->name('admin.master_rekanan');
 Route::get('/admin/master_marketing', [AdminLandingController::class, 'master_marketing'])->name('admin.master_marketing');
-
 Route::get('/admin/master_tim_teknis', [AdminLandingController::class, 'master_tim_teknis'])->name('admin.master_tim_teknis');
-
 Route::get('/admin/master_project', [AdminLandingController::class, 'master_project'])->name('admin.master_project');
-
 Route::get('/admin/tabel_piutang_project', [AdminLandingController::class, 'tabel_piutang_project'])->name('admin.tabel_piutang_project');
-
 Route::get('/admin/tabel_hutang_komisi', [AdminLandingController::class, 'tabel_hutang_komisi'])->name('admin.tabel_hutang_komisi');
-
 Route::get('/admin/tabel_hutang_gaji_tim_teknis', [AdminLandingController::class, 'tabel_hutang_gaji_tim_teknis'])->name('admin.tabel_hutang_gaji_tim_teknis');
-
 Route::get('/admin/tabel_hutang_rekanan_pekerjaan', [AdminLandingController::class, 'tabel_hutang_rekanan_pekerjaan'])->name('admin.tabel_hutang_rekanan_pekerjaan');
-
 Route::get('/admin/tabel_pembukuan_keuangan', [AdminLandingController::class, 'tabel_pembukuan_keuangan'])->name('admin.tabel_pembukuan_keuangan');
 
 
 
 
 
-
+Route::get('/project_manajer/home', [AdminLandingController::class, 'home'])->name('admin.home');
+Route::get('/project_manajer/master_pricelist', [AdminLandingController::class, 'master_pricelist'])->name('admin.master_pricelist');
+Route::get('/project_manajer/master_user', [AdminLandingController::class, 'master_user'])->name('admin.master_user');
+Route::get('/project_manajer/master_rekanan', [AdminLandingController::class, 'master_rekanan'])->name('admin.master_rekanan');
 
 
 
