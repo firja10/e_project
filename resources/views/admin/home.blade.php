@@ -5,6 +5,12 @@
 @endsection
 
 
+@section('user')
+
+Admin
+    
+@endsection
+
 
 
 
@@ -36,7 +42,7 @@
             <div class="card bg-info">
 
               <center>
-                <button class="btn btn-info" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <button class="btn btn-info" data-toggle="collapse" data-target="#collapseDua" aria-expanded="false" aria-controls="collapseDua">
                 <div class="card-header" id="headingOne">
                   <h5 class="mb-0">
                   
@@ -55,7 +61,7 @@
               </center>
 
           
-              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div id="collapseDua" class="collapse" aria-labelledby="headingDua" data-parent="#accordion">
                 <div class="card-body">
                  
 
@@ -109,8 +115,8 @@
           <div class="card bg-success">
 
             <center>
-              <button class="btn btn-success" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-              <div class="card-header" id="headingOne">
+              <button class="btn btn-success" data-toggle="collapse" data-target="#collapseTiga" aria-expanded="false" aria-controls="collapseTiga">
+              <div class="card-header" id="headingTiga">
                 <h5 class="mb-0">
                 
                   <span class="info-box-icon"><i class="fas fa-list-alt"></i></span>
@@ -128,7 +134,7 @@
             </center>
 
         
-            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div id="collapseTiga" class="collapse" aria-labelledby="headingTiga" data-parent="#accordion">
               <div class="card-body">
                
 
@@ -174,8 +180,8 @@
         <div class="card bg-warning">
 
           <center>
-            <button class="btn btn-warning" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-            <div class="card-header" id="headingOne">
+            <button class="btn btn-warning" data-toggle="collapse" data-target="#collapseEmpat" aria-expanded="false" aria-controls="collapseEmpat">
+            <div class="card-header" id="headingEmpat">
               <h5 class="mb-0">
               
                 <span class="info-box-icon"><i class="fas fa-credit-card"></i></span>
@@ -193,7 +199,7 @@
           </center>
 
       
-          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div id="collapseEmpat" class="collapse" aria-labelledby="headingEmpat" data-parent="#accordion">
             <div class="card-body">
              
 
@@ -243,8 +249,8 @@
       <div class="card bg-danger">
 
         <center>
-          <button class="btn btn-danger" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          <div class="card-header" id="headingOne">
+          <button class="btn btn-danger" data-toggle="collapse" data-target="#collapseLima" aria-expanded="false" aria-controls="collapseLima">
+          <div class="card-header" id="headingLima">
             <h5 class="mb-0">
             
               <span class="info-box-icon"><i class="fas fa-credit-card"></i></span>
@@ -262,7 +268,7 @@
         </center>
 
     
-        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+        <div id="collapseLima" class="collapse" aria-labelledby="headingLima" data-parent="#accordion">
           <div class="card-body">
            
 
@@ -310,8 +316,8 @@
       <div class="card bg-primary">
 
         <center>
-          <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          <div class="card-header" id="headingOne">
+          <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseEnam" aria-expanded="false" aria-controls="collapseEnam">
+          <div class="card-header" id="headingEnam">
             <h5 class="mb-0">
             
               <span class="info-box-icon"><i class="fas fa-credit-card"></i></span>
@@ -329,7 +335,7 @@
         </center>
 
     
-        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+        <div id="collapseEnam" class="collapse" aria-labelledby="headingEnam" data-parent="#accordion">
           <div class="card-body">
            
 

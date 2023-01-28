@@ -67,6 +67,7 @@
         </div>
         <div class="info">
           <a href="#" class="d-block">Admin PT</a>
+          {{-- <a href="#" class="d-block"> @yield('user') </a> --}}
         </div>
       </div>
 
@@ -104,14 +105,14 @@
           </li>
 
 
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a href="{{asset('admin/master_pricelist')}}" class="nav-link">
               <i class="nav-icon fas fa-credit-card"></i>
               <p>
                 Master Pricelist
               </p>
             </a>
-          </li>
+          </li> --}}
 
 
           <li class="nav-item">

@@ -15,6 +15,7 @@ class TimTeknisiController extends Controller
     {
         # code...
 
+        return view('tim_teknisi.home');
 
 
 
@@ -31,7 +32,20 @@ class TimTeknisiController extends Controller
         # code...
 
 
+        return view('tim_teknisi.master_project');
 
+
+
+    }
+
+
+
+    public function profile_user()
+    {
+        # code...
+
+
+        return view('tim_teknisi.profile_user');
 
 
 

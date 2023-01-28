@@ -14,7 +14,7 @@ class ManagementProjectController extends Controller
     {
         # code...
 
-
+        return view('project_manager.home');
 
     }
 
@@ -24,6 +24,10 @@ class ManagementProjectController extends Controller
     public function master_project()
     {
         # code...
+
+
+        return view('project_manager.master_project');
+
 
 
     }

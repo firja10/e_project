@@ -67,6 +67,7 @@
         </div>
         <div class="info">
           <a href="#" class="d-block">Teknisi PT</a>
+          {{-- <a href="#" class="d-block"> @yield('user') </a> --}}
         </div>
       </div>
 
@@ -104,50 +105,19 @@
           </li>
 
 
+
           <li class="nav-item">
-            <a href="{{asset('admin/master_pricelist')}}" class="nav-link">
-              <i class="nav-icon fas fa-credit-card"></i>
+            <a href="{{asset('tim_teknisi/profile_user')}}" class="nav-link">
+              <i class="nav-icon fas fa-user"></i>
               <p>
-                Master Pricelist
+                Profile User
               </p>
             </a>
           </li>
 
 
           <li class="nav-item">
-            <a href="{{asset('admin/master_rekanan')}}" class="nav-link">
-              <i class="nav-icon fas fa-handshake"></i>
-              <p>
-                Master Rekanan
-              </p>
-            </a>
-          </li>
-
-
-
-
-          <li class="nav-item">
-            <a href="{{asset('admin/master_marketing')}}" class="nav-link">
-              <i class="nav-icon fas fa-users"></i>
-              <p>
-                Master Marketing
-              </p>
-            </a>
-          </li>
-
-
-          <li class="nav-item">
-            <a href="{{asset('admin/master_tim_teknis')}}" class="nav-link">
-              <i class="nav-icon fas fa-wrench"></i>
-              <p>
-                Master Tim Teknis
-              </p>
-            </a>
-          </li>
-
-
-          <li class="nav-item">
-            <a href="{{asset('admin/master_project')}}" class="nav-link">
+            <a href="{{asset('tim_teknisi/master_project')}}" class="nav-link">
               <i class="nav-icon fas fa-cogs"></i>
               <p>
                 Master Project
@@ -157,61 +127,14 @@
 
 
 
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a href="{{asset('admin/master_piutang_project')}}" class="nav-link">
               <i class="nav-icon fas fa-credit-card"></i>
               <p>
                 Master Piutang Project
               </p>
             </a>
-          </li>
-
-
-
-          <li class="nav-item">
-            <a href="{{asset('admin/tabel_hutang_komisi')}}" class="nav-link">
-              <i class="nav-icon fas fa-credit-card"></i>
-              <p>
-                Tabel Hutang Komisi
-              </p>
-            </a>
-          </li>
-
-
-          <li class="nav-item">
-            <a href="{{asset('admin/tabel_hutang_gaji_tim_teknis')}}" class="nav-link">
-              <i class="nav-icon fas fa-credit-card"></i>
-              <p>
-                Tabel Hutang Gaji Tim Teknis
-              </p>
-            </a>
-          </li>
-
-
-          <li class="nav-item">
-            <a href="{{asset('admin/tabel_hutang_rekanan_pekerjaan')}}" class="nav-link">
-              <i class="nav-icon fas fa-credit-card"></i>
-              <p>
-                Tabel Hutang Rekanan Pekerjaan
-              </p>
-            </a>
-          </li>
-
-
-
-
-
-          
-          <li class="nav-item">
-            <a href="{{asset('admin/tabel_pembukuan_keuangan')}}" class="nav-link">
-              <i class="nav-icon fas fa-book"></i>
-              <p>
-                Tabel Pembukuan Keuangan
-              </p>
-            </a>
-          </li>
-
-
+          </li> --}}
 
 
 
